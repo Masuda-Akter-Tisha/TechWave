@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom:1px solid #ab8ad8;
+    border-bottom:1px solid #412567;
 }
 .nav-logo h2{
     font-size: 2.81rem;
@@ -59,6 +59,84 @@
 }
 .hamburger-icon{
     display: none;
+}
+/* banner-related-img */
+.banner{
+    background-image: url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-container{
+    width: 35%;
+    margin: 0px auto;
+    padding: 101px 0px;
+    text-align: center;
+}
+.circle-img{
+    margin: 0px auto 0px auto;
+    height: 420px;
+    width: 420px;
+    background-image: url('../assets/hero-circle.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.microphone-img{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 150px; 
+}
+.badge-btn{
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    background-color: #00FF88;
+    padding: 8px 16px;
+    font-size: 1.12rem;
+    font-weight: 600px;
+    color: #1A0B2E;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.banner-heading{
+    font-size: 3.75rem;
+    font-weight: ExtraBold;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.banner-btn-1{
+     border: none;
+    border-radius: 10000px;
+    background-image: linear-gradient(to top right,rgba(247, 233, 63, 1),rgb(208, 31, 155),rgba(145, 0, 248, 1));
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight:600px;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+.banner-btn-1 i{
+    margin-right: 5px;
+}
+.banner-btn-2 i{
+    margin-right: 5px;
+}
+.banner-btn-2{
+    border: 1px solid #00FF88;
+    background-color: transparent;
+    border-radius: 10000px;
+    color: #00FF88;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight:600px;
 }
 /* small-device-Responsive */
 @media screen and (max-width:576px) {
