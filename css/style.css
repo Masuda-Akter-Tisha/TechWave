@@ -152,4 +152,25 @@
     .hamburger-icon{
         display: block;
     }
+    .banner-container{
+        width: 70%;
+    }
+    .circle-img{
+    height: 350px;
+    width: 350px;
+}
+.microphone-img img{
+    width: 100px;
+    margin-top: -20px;
+    margin-left: -25px; 
+}
+   .banner-heading{
+    font-size: 3rem;
+   }
+   .badge-btn{
+    padding: 8px 16px;
+    font-size: 0.8rem;
+    margin-left: 220px;
+    margin-top: 15px;
+   }
 }
