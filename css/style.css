@@ -1,0 +1,13 @@
+/* font-related-style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
