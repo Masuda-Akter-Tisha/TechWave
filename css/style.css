@@ -263,7 +263,7 @@ hr{
 .featured-episodes-container{
     width: 75%;
     margin: 0px auto;
-    padding: 100px 0px 60px 0px;
+    padding: 70px 0px 60px 0px;
 }
 .featured-heading{
     font-size: 3rem;
@@ -310,6 +310,59 @@ iframe{
     font-size: 1rem;
     font-weight: 600px;
     color: #00FF88;
+}
+/* host-section-related-style */
+.host-section{
+    background-color: #1A0B2E;;
+}
+.host-section-container{
+    width: 75%;
+    margin: 0px auto;
+    padding:60px 0px 120px 0px;
+}
+.host-container{
+    background-color: rgba(53, 17, 101, 0.4);
+    border: none;
+    border-radius: 40px;
+    padding: 40px 70px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.host-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color:#FFFFFF;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.host-name{
+    font-size: 2rem;
+    font-weight: bold;
+    color:#FFFFFF;
+    margin-bottom: 16px;
+}
+.biography{
+    font-size: 1rem;
+    font-weight: 400px;
+    color:#FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 25px;
+}
+.social-media-links{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.link{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* small-device-Responsive */
 @media screen and (max-width:576px) {
@@ -397,7 +450,7 @@ hr{
    gap: 30px;
 }
 .featured-episodes-container{
-    padding: 30px 0px 60px 0px;
+    padding: 30px 0px 30px 0px;
 }
 .featured-heading{
     font-size: 2.50rem;
@@ -415,5 +468,21 @@ hr{
 }
 .card-duration{
     margin-top: 5px;
+}
+.host-container{
+    padding: 40px 70px;
+    flex-direction: column;
+    gap: 2px;
+    text-align: center;
+}
+.host-section-container{
+    padding:10px 0px 50px 0px;
+}
+.host-title{
+    font-size: 2.50rem;
+    margin-bottom: 40px;
+}
+.social-media-links{
+    justify-content: center;
 }
 }
