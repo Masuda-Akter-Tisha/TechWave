@@ -256,6 +256,61 @@ hr{
     color:#FFFFFF;
     margin-top: 16px;
 }
+/* Featured episodes section related style */
+.featured-episodes-section{
+    background-color: #1A0B2E;
+}
+.featured-episodes-container{
+    width: 75%;
+    margin: 0px auto;
+    padding: 100px 0px 60px 0px;
+}
+.featured-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.featured-episodes-cards{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 30px;
+}
+.card{
+    border: none;
+    border-radius: 20px;
+    background-color:  rgba(53, 17, 101, 0.4);
+}
+iframe{
+    border-radius:20px 20px 0px 0px;
+}
+.card-content{
+    padding:10px 50px;
+}
+.card-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.card-sub-heading{
+    font-size: 1rem;
+    font-weight: 400px;
+    color:#FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.card-duration{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 12px;
+}
+.time p{
+    font-size: 1rem;
+    font-weight: 600px;
+    color: #00FF88;
+}
 /* small-device-Responsive */
 @media screen and (max-width:576px) {
     .nav-content{
@@ -313,7 +368,7 @@ hr{
     font-size: 2.50rem;
 }
 .why-choose-container{
-    padding: 30px 0px;
+    padding: 30px 0px 50px 0px;
 }
 .featured-card-container{
     grid-template-columns: 1fr;
@@ -336,5 +391,29 @@ hr{
 }
 .card-description{
     margin-top: 10px;
+}
+.featured-episodes-cards{
+   grid-template-columns: 1fr;
+   gap: 30px;
+}
+.featured-episodes-container{
+    padding: 30px 0px 60px 0px;
+}
+.featured-heading{
+    font-size: 2.50rem;
+}
+.card-heading{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.card-sub-heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-content{
+    padding:5px 30px;
+}
+.card-duration{
+    margin-top: 5px;
 }
 }
