@@ -53,6 +53,7 @@
     font-size: 1rem;
     font-weight:600px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 .nav-btn button i{
     margin-left: 5px;
@@ -86,6 +87,15 @@
     position: absolute;
     margin-top: 120px;
     margin-left: 150px; 
+    animation: chorki 3s infinite linear;
+}
+@keyframes chorki {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 .badge-btn{
     border: none;
@@ -98,6 +108,17 @@
     color: #1A0B2E;
     margin-left: 300px;
     margin-top: 30px;
+    cursor: pointer;
+    animation: pulse 3s infinite;
+}
+@keyframes pulse {
+  0% {
+    background-color: #00FF88;
+  }
+  100% {
+    background-image:linear-gradient(to top right,rgba(247, 233, 63, 1),rgb(208, 31, 155),rgba(145, 0, 248, 1));
+    color: white;
+  }
 }
 .banner-heading{
     font-size: 3.75rem;
@@ -122,6 +143,7 @@
     font-weight:600px;
     color: #FFFFFF;
     margin-right: 5px;
+    cursor: pointer;
 }
 .banner-btn-1 i{
     margin-right: 5px;
@@ -137,6 +159,7 @@
     padding: 12px 20px;
     font-size: 1rem;
     font-weight:600px;
+    cursor: pointer;
 }
 /* About-section-related-style */
 .about-section{
